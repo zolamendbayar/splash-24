@@ -40,12 +40,65 @@ table {
    border-spacing: 0;
 }
 
-
 /*
 
 ================================================
 GRID
 ================================================
 */
+*,
+*:before,
+*:after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+}
+body {
+    background-color: #0d090e /*35E5E5E*/;
+    background-image: url("img/beach.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: top;
+    padding: 100px 0 0 0;
+    margin: 0;
+}
+.wrapper {
+    background-color: rgba(0, 0, 0, 0.5);
+    float:right;
+    margin: 80 px 0 0 0;
+    max-width: 420px;
+    padding: 20 px;
+    z-index: 0;
+}
+.container {
+    z-index: 1;
+    margin: 10px 0;
+}
+.profile{
+    border-radius: 50%;
+    clear: right;
+    float: right;
+    height: 50px;
+    margin-bottom: 10px;
+    width: 50px;
+}
+p{
+    clear: both;
+    color: #f1f1f1;
+    font-size: 14px;
+    line-height: 22px;
+}
 
+/*
+==============================================
+Footer
+==============================================
+*/
+footer a {
+    color: #ffffff;
+}
+i {
+    margin-right: 30px;
+    font-size: 30px;
+}
 
