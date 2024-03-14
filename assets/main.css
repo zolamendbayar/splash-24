@@ -62,9 +62,6 @@ body {
     padding: 100px 0 0 0;
     margin: 0;
 }
-#grad{
-    background-image: linear-gradient( #a4587c, #a4588c);
-}
 .wrapper {
     background-color: rgba(0, 0, 0, 0.5);
     float:right;
